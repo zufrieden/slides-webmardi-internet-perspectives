@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1920" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Webmardi - Talk - Perspective sur l'évolution d'internet</title>
+    <meta name="author" content="Marc Friederich" />
+    <!-- <link href="css/impress-demo.css" rel="stylesheet" /> -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/impress-common.css" rel="stylesheet" />
+    <style>
+        section{
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         flex-direction: column;
+         text-align: center;
+         gap: 2vh;
+        }
+        section.text-left{
+            text-align: left;
+            padding-left: 1em;
+        }
+        section img.cover{
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+        }
+        section img.contain{
+            object-fit: contain;
+            height:100vh;
+            width:auto;
+        }
+        section img.half{
+            object-fit: contain;
+            height:50vh;
+            width:auto;
+        }
+        
+        section {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            margin: 20px auto;
+            box-sizing: border-box;
+        }
+
+        .impress-enabled section {
+            opacity: 1;
+            /* transition: opacity 0.3s; */
+        }
+        .impress-enabled section.active { opacity: 1 }
+
+    </style>
+    
+</head>
+<body class="impress-not-supported">
+
+
+<div id="impress"
+    data-transition-duration="1000"
+    data-width="1920"
+    data-height="1080"
+    data-max-scale="8"
+    data-min-scale="0"
+    data-perspective="1000"
+    >
+
+    <section id="bored" class="step slide" data-x="-1000" data-y="-1500" data-z="-1000" data-scale="8" data-rotate-z="180" data-rotate-y="-180" data-rotate-x="90">
+        <div>
+            <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        </div>
+        <aside class="notes">
+            Just wait wait wait wait
+        </aside>
+    </section>
+    <section id="title" class="step text-left" data-x="-3000" data-y="-1500" data-z="0" data-scale="1" data-rotate-z="90" data-rotate-y="-90" >
+        <h2>🌐 Webmardi #152</h2>
+        <h1>Perspectives sur&nbsp;l’évolution d’internet</h1>
+        <h4>Marc Friederich</h4>
+    </section>
+    <section id="disclaimer" class="step slide" data-rel-x="2200" data-rel-y="0"> 
+        <h1>
+            Disclaimer 👀
+        </h1>
+        <aside class="notes">
+            <ul>
+                <li>Je ne suis pas historien</li>
+                <li>La perspective que je livre ici vient des recherches personnelles</li>
+                <li>Elles sont influencées par tous les biais qui sont liés à qui je suis : Homme, blanc, privilégié (qui a la chance d'avoir beaucoup voyagé)</li>
+            </ul>   
+        </aside>        
+    </section>
+    <section id="love-web" class="step slide" data-rel-x="2200" data-rel-y="0"> 
+        <style>
+            .human-heart {
+              display: inline-block;
+              animation: 2.1s infinite beatHeart;
+            }
+            
+            @keyframes beatHeart {
+              0% {
+                transform: scale(1);
+              }
+              25% {
+                transform: scale(1.1);
+              }
+              40% {
+                transform: scale(1);
+              }
+              60% {
+                transform: scale(1.1);
+              }
+              100% {
+                transform: scale(1);
+              }
+            }
+        </style>
+        <h1>
+            <span class="human-heart">💜</span>  the Web
+        </h1>
+        <aside class="notes">
+            <ul>
+                <li>
+                    J’aime le web, vous vous souvenez ? Ça a été un de mes talk du webmardi il y a plusieurs années
+                </li>
+            </ul>   
+        </aside>        
+    </section>    
+    <section id="love-web-tags" class="step slide" data-rel-x="0" data-rel-y="400" data-rel-z="-1000"> 
+        <ul class="tags">
+            <li><a href="https://zufrieden.io/talking/2020_easy-as-the-web/">Simple</a></li>
+            <li><a href="https://zufrieden.io/talking/2020_easy-as-the-web/">Accessible</a></li>
+            <li><a href="https://zufrieden.io/talking/2020_easy-as-the-web/">Resilient</a></li>
+            <li><a href="https://zufrieden.io/talking/2020_easy-as-the-web/">Fast</a></li>
+            <li><a href="https://zufrieden.io/talking/2020_easy-as-the-web/">Distributed</a></li>
+            <li><a href="https://zufrieden.io/talking/2020_easy-as-the-web/">Diverse</a></li>
+            <li><a href="https://zufrieden.io/talking/2020_easy-as-the-web/">Empowering</a></li>
+            <li><a href="https://zufrieden.io/talking/2020_easy-as-the-web/">Open</a></li>
+            <li><a href="https://zufrieden.io/talking/2020_easy-as-the-web/">Evolving</a></li>
+            <li><a href="https://zufrieden.io/talking/2020_easy-as-the-web/">Playful</a></li>
+        </ul>
+        <aside class="notes">
+            <ul>
+                <li>
+                    Pas n'importe quel web, si jamais
+                </li>
+            </ul>   
+        </aside>        
+    </section>    
+    <section id="whoami" class="step slide" data-rel-x="2200" data-rel-y="-400" data-rel-z="1000"> 
+        <img src="me.jpeg" alt="Moi" class="half">
+        <h2>Marc Friederich </h2>
+        <h4><a href="https://zufrieden.io">zufrieden.io</a></h4>
+        <aside class="notes">
+            <ul>
+                <li>
+                    Qui suis-je au fait
+                </li>
+            </ul>   
+        </aside>
+    </section>
+    <section id="antistatique" class="step slide" data-rel-x="2200" data-rel-y="-400" style="background-color: #fff; border-radius: 8vh; padding: 8vh;"> 
+        <!-- <h2 style="color:#ff00aa">Antistatique</h2> -->
+        <div style="width:100%;height:100%;display: flex;flex-direction: column;justify-content: center; align-items: center; gap:5vh;">
+         <img src="antistatique_globe.svg" alt="globe man" width="40%">
+         <img src="antistatique.svg" alt="Antistatique logo" width="60%;">
+        </div>
+        <aside class="notes">
+            <ul>
+                <li>
+                    Agence web depuis 2008
+                </li>
+            </ul>   
+        </aside>
+    </section>
+    
+    <section id="pourquoi" class="step slide" data-rel-x="2200" data-rel-y="0">
+        <h1>Pourquoi vous parler de&nbsp;tout&nbsp;de&nbsp;ça ?</h1>
+        <aside class="notes">
+            Y voit une suite logique<br/>
+            pourquoi j'aime le web ?<br/>
+            Comment faire sa veille, et prendre du recule sur le temps<br/>
+            et maintenant quelle sont les perspectives ?
+        </aside>
+    </section>
+    <section id="pourquoi_web_vie" class="step slide" data-rel-x="0" data-rel-y="1000" data-rel-z="-1000">
+        <h1>Le Web a transformé <mark>nos vies</mark></h1>
+        <aside class="notes">
+            <ul>
+                <li>Je m’intéresse à comment le web a transformé nos vies</li>
+                <li>Je lis beaucoup depuis 5-6 ans sur ce sujet et ce talk c’est une manière pour moi de relier toutes ces sources et leur donner ma perspective.</li>
+                <li>Je crois que j’’essaye de comprendre comment on a réussi à s’entendre pour réussir à se connecter</li>
+                <li>Je ne comprend d’ailleurs toujours pas pourquoi je ne peux pas rejoindre un call Zoom avec Teams, c’est quand même dingue en 2024. C’est naïf Marc, une histoire de gros sous sans doute.</li>
+            </ul>   
+        </aside>
+    </section>
+    <section id="pourquoi_lecture" class="step slide" data-rel-x="0" data-rel-y="1000" data-rel-z="-1000">
+        <h2>lectures autour du sujet</h2>
+        <img src="sources.jpeg" alt="sources de ce talk" class="contain">
+        <aside class="notes">
+            <ul>
+                <li>Je m’intéresse à comment le web a transformé nos vies</li>
+                <li>Je lis beaucoup depuis 5-6 ans sur ce sujet et ce talk c’est une manière pour moi de relier toutes ces sources et leur donner ma perspective.</li>
+                <li>Je crois que j’’essaye de comprendre comment on a réussi à s’entendre pour réussir à se connecter</li>
+                <li>Je ne comprend d’ailleurs toujours pas pourquoi je ne peux pas rejoindre un call Zoom avec Teams, c’est quand même dingue en 2024. C’est naïf Marc, une histoire de gros sous sans doute.</li>
+            </ul>   
+        </aside>
+    </section>
+    <section id="pourquoi_s_entendre" class="step slide" data-rel-x="0" data-rel-y="1000" data-rel-z="-1000">
+        <h1>Comment les décisions ont été prises 🤔</h1>
+        <h2>Par qui et pour quelles raisons ?</h2>
+        <aside class="notes">
+            <ul>
+                <li>Je m’intéresse à comment le web a transformé nos vies</li>
+                <li>Je lis beaucoup depuis 5-6 ans sur ce sujet et ce talk c’est une manière pour moi de relier toutes ces sources et leur donner ma perspective.</li>
+                <li>Je crois que j’’essaye de comprendre comment on a réussi à s’entendre pour réussir à se connecter</li>
+                <li>Je ne comprend d’ailleurs toujours pas pourquoi je ne peux pas rejoindre un call Zoom avec Teams, c’est quand même dingue en 2024. C’est naïf Marc, une histoire de gros sous sans doute.</li>
+            </ul>   
+        </aside>
+    </section>
+    <section id="pourquoi_video_conferending" class="step slide" data-rel-x="0" data-rel-y="1000" data-rel-z="-1000">
+        <h1>Cela signifie quoi d'être relié 🫶 ?</h1>
+        <h2>🫸la métaphysique du réseau🫷</h2>
+        <!-- <h2>H.323, SIP, WebRTC</h2>
+        <h2><s>M$ Teams, GoogleMeet, WebEx, Zoom, etc ...</s></h2> -->
+        <aside class="notes">
+            <ul>
+                <li>Je m’intéresse à comment le web a transformé nos vies</li>
+                <li>Je lis beaucoup depuis 5-6 ans sur ce sujet et ce talk c’est une manière pour moi de relier toutes ces sources et leur donner ma perspective.</li>
+                <li>Je crois que j’’essaye de comprendre comment on a réussi à s’entendre pour réussir à se connecter</li>
+                <li>Je ne comprend d’ailleurs toujours pas pourquoi je ne peux pas rejoindre un call Zoom avec Teams, c’est quand même dingue en 2024. C’est naïf Marc, une histoire de gros sous sans doute.</li>
+            </ul>   
+        </aside>
+    </section>
+    
+    <section id="moon" class="step slide" data-x="0" data-y="0" data-z="0" data-rotate-z="180" data-rotate-y="-180" style="background:url('p08530wr.jpg');background-size:cover;">
+        <aside class="notes">
+            <ul>
+                <li>Cette photo, mon oncle l’a développé pour le compte d’une marque horlogère suisse connue. Il m’a donné ces originaux, “les négatifs que tu vois là, ils ont voyagé sur la lune, tu te rend compte”.</li>
+                <li>1. Quand je lui demande pourquoi c’est important pour lui, il me dit que c’est impossible pour moi de me rendre compte à quel point cette période était une révolution</li>
+                <li>2. Pourquoi on ne peut pas se rendre compte .. c’est vrai ça</li>
+                <li>3. 1. Gain perspective - see the whole earth - nous on a l’habitude de la voir cette terre flotter dans l’espace.</li>
+                <li>2. D’ailleurs cette photo, c’est un symbole, </li>
+            </ul>
+        </aside>
+    </section>
+    <section id="spacerace" class="step slide" data-rel-x="1500" data-rel-y="800" data-rel-rotate-z="180" data-rel-rotate-y="-180" >
+        <img src="urss_poster.jpg" alt="Poster URSS" class="contain">
+        <aside class="notes">
+            3. Mais cette photo, elle est chargée de géopolitique, la course à l’espace de la guerre froide
+        </aside>
+    </section>
+    <section id="whowonthewar" class="step slide" data-rel-x="400" data-rel-y="800">
+        <blockquote>
+            <h1>L'histoire est écrite par les vainqueurs.</h1>
+            <img src="robert.jpeg" alt="Robert Brasillach">
+            <cite>
+                Robert Brasillach, 1944
+            </cite>
+        </blockquote>
+        <aside class="notes">
+            On doit toujours bien se méfier de l'histoire ...
+        </aside>
+    </section>
+    <section id="facettes" class="step slide" data-rel-x="400" data-rel-y="800">
+        
+        <style>
+            
+        </style>
+
+        <div class="container">
+          <div class="cube">
+            <div class="face top face-active"><span class="cube-emoji">☮️</span>️<h3>Contre culture</h3></div>
+            <div class="face bottom"><span class="cube-emoji">💻</span><h3>L'ordinateur personnel</h3></div>
+            <div class="face left"><span class="cube-emoji">⚛️</span>️<h3>L'armée et la&nbsp;politique</h3></div>
+            <div class="face right"><span class="cube-emoji">🛍</span>️<h3>Le marketing</h3></div>
+            <div class="face front"><span class="cube-emoji">🏗</span>️<h3>L'infrastructure / le&nbsp;réseau</h3></div>
+            <div class="face back"><span class="cube-emoji">🧑‍🚀</span><h3>Utilisateur·ices</h3></div>
+          </div>
+        </div>
+        
+        <h1>Les facettes d'Internet</h1>
+
+        <aside class="notes">
+            Prysm selon lequel on va regarder l'histoire d'internet ce soir<br/>
+            Ces facteurs d'influence ont façonné le réseau et les jeux de pouvoir <br/>
+            nous allons naviguer entre les différentes facettes. On commence par la contre-culture.
+        </aside>
+    </section>
+    <section id="earthcatalog" class="step slide" data-rel-x="-2800" data-rel-y="-1000">
+        <img src="whole_earth_catalog.webp" alt="whole earth catalog" class="contain">
+        <aside class="notes">
+            Cette photo c’est aussi la cover du earth catalog vous avez déjà entendu parlé ?
+        </aside>
+    </section>
+    <section id="premier-media-cyberculture" class="step slide text-left" data-rel-x="-2800" data-rel-y="-1000">
+        <h2>📍1968</h2>
+        <h1>Whole Earth Catalog</h1>
+        <h3>Une influence importante du web et de la contre-culture</h3>
+        <aside class="notes">
+        <h3>Ce média va influencer les vision du cyberespace, créé dans les communautés</h3>
+        <h3>Décrit comme une sort de précurseur de google ou wikipedia, mais version papier</h3>
+        <h3>Elle va influencer la silicon valley et tout les débuts de l'informatique personnel</h3>
+        <h3>On cherche l'émancipation du monde militaire </h3>
+        </aside>
+    </section>
+    <section id="hippies" class="step slide text-left" data-rel-x="1500" data-rel-y="0">
+        <h2>🔗 Les facettes d'Internet</h2>
+        <h1>L'héritage des Hippies</h1>
+    </section>
+    <section id="hippies-key-dates" class="step slide text-left" data-rel-x="1500" data-rel-y="2000" data-rotate-y="-120">
+        <h1>
+            La culture techno-utopiste d'Internet
+        </h1>
+        <h2>Mouvement de la contre-culture des années 60</h2>
+        <aside class="notes">
+            Today’s Internet, with its techno-utopian culture, connects with the 1960s counterculture movement.
+        </aside>
+    </section>
+    <section id="open-source" class="step slide" data-rel-x="1500" data-rel-y="0" data-rotate-y="-120">
+        <blockquote>
+            <h1>Information wants to be free and also expensive</h1>
+            <img src="Stewart-Brand.webp" alt="Steward Brand">
+            <cite>
+                Steward Brand<br/>
+                <small>1984 – 1<sup>st</sup> Hackers Conference</small>
+            </cite>
+        </blockquote>
+        <aside class="notes">
+            En réalité, ce n'est pas tout à fait ce qu'il voulait dire.<br/>
+            "Information wants to be free, because the cost of getting it out is getting lower and lower all the time."<br/>
+            "Information wants to be free" > Figurait dans le earth catalog.<br/>
+            Steward Brand
+            Cette phrase est souvent attribuée à Steve Wozniak, il était là en 1984 à cette Hacker conference.<br/>
+            Fondation de beaucoup d'idée et de concept<br/>
+            Hyper critiqué par ceux qui se finance sur le contenu. Je vous propose 2 digressions : accepter les contradictions et la notion de tragedie des communs.<br/>
+            <small>In a 1984 Hackers’ Conference, Brand told Steve Wozniak, a founder of Apple Inc., "Information wants to be free, because the cost of getting it out is getting lower and lower all the time." This phrase, "Information wants to free," came to mean people should be able to access information freely. It has become an ideology of many technology activists who criticize any restriction to open and free access to information. Completely forgotten today is the fact that this phrase is taken out of context; the preceding sentence by Brand was "Information wants to be expensive, because it’s so valuable." Of course, information does not want anything. It is people who want information to be free, but "Information wants to be free" meshed well with the antiestablishment character of the techno-utopianism. When the Internet and the World-Wide Web grew explosively in the early 1990s, information freedom became a mantra.</small>
+        </aside>
+    </section>
+    <section id="digression-contradiction" class="step slide text-left" data-rel-x="1500" data-rel-y="0" data-rotate-y="-120">
+        <blockquote>
+            <h1>Toutes choses sont mutuellement contraires.</h1>
+            <img src="heraclite.jpg" alt="Héraclite">
+            <cite>
+                Héraclite,  500 av. J.-C
+            </cite>
+        </blockquote>
+        <aside class="notes">
+            <h3>La contradiction a quelque chose d’embarrassant, de dérangeant, pour les Occidentaux que nous sommes. Elle est contraire à la logique que nous apprenons tous depuis le berceau, celle d’Aristote et son principe de non-contradiction qui stipule que A et non-A ne peuvent être vrais en même temps. </h3>
+            <h1>Si vous tombez sur une contradiction, c’est que vous faites erreur, il faut faire marche arrière. Le cours du développement technique et scientifique a donné le primat à cette pensée binaire, en reléguant la pensée des contradictions dans les marges.</h1>
+            <h3>Pourtant, dès que je réfléchis à tous les grands problèmes, je tombe sur des contradictions : c’est bien qu’elles touchent une forme de vérité. Un fragment d’Héraclite me semble être par exemple le cœur de toute anthropologie : “Éveillés, ils dorment.”</h3>
+        </aside>
+    </section>
+    <section id="digression-contradiction-militaire-hippies" class="step slide" data-rel-x="1500" data-rel-y="0" data-rotate-y="-120"  style="background:url('Vietnamdem.jpg');background-size:cover;justify-content: flex-start;">
+            <h2><br/>Internet was created by hippies<br/>while being funded by the military!</h2>
+            <aside class="notes">
+                <h2>il y a comme un truc pas logique là dedans</h2>
+                <h3>Mais c'est pourtant cette dynamique qui renforce la volonté de contribuer pour imposer plus son idéologie</h3>
+            </aside>
+    </section>    
+    <section id="digression-tragedy-commons" class="step slide text-left" data-rel-x="1500" data-rel-y="0" data-rotate-y="-120">
+        <blockquote>
+            <h1>The conflict between individual and collective rationality</h1>
+            <img src="garrett.jpeg" alt="Garrett Hardin">
+            <cite>
+                Garrett Hardin, 1915-2003
+            </cite>
+        </blockquote>
+        <aside class="notes">
+            <h2>Tragedy of the commons</h2>
+            <h1>The conflict between individual and collective rationality</h1>
+            <h4>Garrett Hardin</h4>
+            https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+            <h3>Cité dans énormément de publication pour justifier le fait que l'on est incapable de s'organiser pour partager des bien commun sans les sur-exploiter vs donner le mandat à une entreprise de l'exploiter (genre les poissons d'un lac par exemple)</h3>
+        </aside>
+    </section>
+    <section id="digression-tragedy-commons-elinor-ostrom" class="step slide text-left" data-rel-x="1500" data-rel-y="0" data-rotate-y="-120">
+        <blockquote>
+            <h1>Avoid the tragedy, by governing the Commons.</h1>
+            <img src="elinor.jpg" alt="Elinor Claire Ostrom">
+            <cite>
+                Elinor Claire "Lin" Ostrom - 1933-2012
+            </cite>
+        </blockquote>
+        <aside class="notes">
+             https://en.wikipedia.org/wiki/Elinor_Ostrom
+            <h2>Prix Nobel</h2>
+            <h1>Des décénies de recherche sur le partage de bien commun</h1>
+        </aside>
+    </section>
+    <section id="digression-digital-tragedy-commons" class="step slide" data-rel-x="1500" data-rel-y="0" data-rotate-y="-120">
+        <h1>Tragedy of the digital commons</h1>
+        <h2>Le digital est-il infiniment distribuable ?</h2>
+        <aside class="notes">
+            https://en.wikipedia.org/wiki/Tragedy_of_the_commons
+            
+            Tragedy of the digital commons
+            In the past two decades, scholars have been attempting to apply the concept of the tragedy of the commons to the digital environment. However, between scholars there are differences on some very basic notions inherent to the tragedy of the commons: the idea of finite resources and the extent of pollution.[20] On the other hand, there seems to be some agreement on the role of the digital divide and how to solve a potential tragedy of the digital commons.[20]
+            
+            Resources
+            Many digital resources have properties that make them vulnerable to the tragedy of the commons, including data,[46] virtual artifacts[47] and even limited user attention.[48] Closely related are the physical computational resources, such as CPU, RAM, and network bandwidth, that digital communities on shared servers rely upon and govern.[49] Some scholars argue that digital resources are infinite, and therefore immune to the tragedy of the commons, because downloading a file does not constitute the destruction of the file in the digital environment,[50] and because it can be replicated and disseminated throughout the digital environment.[51] However, it can still be considered a finite resource within the context of privacy laws and regulations that limit access to it.[52]
+            
+            Finite digital resources can thus be digital commons. An example is a database that requires persistent maintenance, such as Wikipedia. As a non-profit, it survives on a network of people contributing to maintain a knowledge base without expectation of direct compensation. This digital resource will deplete as Wikipedia may only survive if it is contributed to and used as a commons. The motivation for individuals to contribute is reflective of the theory because, if humans act in their own immediate interest and no longer participate, then the resource becomes misinformed or depleted. Arguments surrounding the regulation and mitigation requirements for digital resources may become reflective of natural resources.[53][54]
+            
+            This raises the question whether one can view access itself as a finite resource in the context of a digital environment. Some scholars argue this point, often pointing to a proxy for access that is more concrete and measurable.[55] One such proxy is bandwidth, which can become congested when too many people try to access the digital environment.[51][56] Alternatively, one can think of the network itself as a common resource which can be exhausted through overuse.[57] Therefore, when talking about resources running out in a digital environment, it could be more useful to think in terms of the access to the digital environment being restricted in some way; this is called information entropy.[58]
+        </aside>
+    </section>
+    <section id="digression-digital-tragedy-commons-infrastructure" class="step slide" data-rel-x="1500" data-rel-y="0" data-rotate-y="-120"  style="background:url('sea_cables.jpg');background-size:cover;">
+        <h1>Internet c'est quoi ?</h1>
+        <aside class="notes">
+            Photo credit : https://www.flickr.com/photos/ctbto/3816716741/
+        </aside>
+    </section> 
+    <section id="digression-digital-tragedy-commons-infrastructure-map" class="step slide" data-rel-x="1500" data-rel-y="0" data-rotate-y="-120"  style="background:url('internet-undersea-world.original.png');background-size:cover;border:30px solid white;">
+        <aside class="notes">
+            <h2>Et ça ce n'est que la partie des océans</h2>
+            https://theodi.org/news-and-events/blog/from-cyber-to-physical-space-the-concentration-of-digital-and-data-power-by-tech-companies/
+        </aside>
+    </section>    
+    <section id="cyberspace-become-internet" class="step slide text-left" data-x="0" data-y="2000" data-z="0" data-rotate-z="180" data-rotate-y="-180">
+        <h2>📍1984 — 1989</h2>
+        <h1>Le cyberspace devient Internet</h1>
+        <h3></h3>
+        <aside class="notes">
+        <h2>On revient à la définition de ce nouvel espace</h2>
+        <h3>En 1984, arrêt définitif des connexion avec l'ancètre Arapanet, développé par l'armée américaine pour "provide a reliable and decentralized communication network that could withstand a nuclear attack"</h3>
+        <h3>NSFNet</h3>
+        <h2>La science-fiction décrit une univers ou les corps est absent</h2>
+        <h3>Ce média va influencer les vision du cyberespace</h3>
+        
+        </aside>
+    </section>
+    <section id="cyberspace-" class="step slide" data-rel-x="1500" data-rel-y="0" data-rotate-y="-120"  style="background:url('sea_cables.jpg');background-size:cover;">
+        <h1>Internet c'est quoi ?</h1>
+        <aside class="notes">
+            Photo credit : https://www.flickr.com/photos/ctbto/3816716741/
+        </aside>
+    </section> 
+    
+    
+    
+    
+
+  
+    <section id="overview" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="10">
+    </section>
+
+</div>
+
+<!-- <div id="impress-toolbar"></div> -->
+
+
+
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+    <script>
+    function gethue(){
+      const x = 1 - (window.innerWidth) / 10000;
+      const actual_color_hue = getComputedStyle(document.documentElement).getPropertyValue('--color-h');
+      document.documentElement.style.setProperty('--color-h', Math.round(312*x));		
+    }
+    gethue();
+    window.addEventListener('resize', () => {
+        gethue();
+    })
+</script>
+
+
+</body>
+</html>
