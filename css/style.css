@@ -322,8 +322,10 @@ header nav .home a{
 
 
 /* Typography */
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5, p{
   word-wrap: break-word;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 h1, .h1, .h-huge {
   font-size: clamp(0.7em, calc(2.9em + 0.8vw), 24em);
@@ -397,7 +399,10 @@ hr {
   height: 0px;
   margin: 40px 0;
 }
-
+mark{
+  color: var(--bg-color);
+  background-color: var(--link-color);
+}
 
 
 section{
@@ -492,12 +497,14 @@ blockquote {
   border: none;
   border: solid 2px var(--text-color);
   box-shadow: 10px 10px 0 0 var(--text-color);
+  background-color: var(--text-color);
+  color: var(--bg-color);
 }
 
 blockquote p, blockquote h1, blockquote h2, blockquote h3, blockquote h4 {
   /* font-family: 'Patua One', Andale Mono, cursive; */
 }
-blockquote h1{
+blockquote h1, blockquote h2{
  margin:0;
  padding: 1em; 
  grid-area: citation;
